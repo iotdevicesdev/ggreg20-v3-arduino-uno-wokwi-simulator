@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "author": "IoT-devices, LLC - Kyiv - Ukraine - 2022",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 10, "left": 20, "attrs": {} },
+    {
+      "type": "wokwi-ssd1306",
+      "id": "ssd1306",
+      "top": 230,
+      "left": 100,
+      "attrs": { "i2c-address": "0x3C" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -56.03645833333333,
+      "left": -106.33333333333333,
+      "attrs": { "color": "red" }
+    },
+    { "type": "wokwi-resistor", "id": "r1", "top": -5.82, "left": -72.69, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": -115.5,
+      "left": 135.55,
+      "attrs": { "bounce": "0", "color": "green", "label": "GGreg20_V3 Pulse Output Emulator" }
+    }
+  ],
+  "connections": [
+    [ "uno:GND.2", "ssd1306:GND", "black", [ "v12", "*", "h0" ] ],
+    [ "uno:5V", "ssd1306:VIN", "red", [ "v16", "*", "h0" ] ],
+    [ "uno:A4", "ssd1306:DATA", "blue", [ "v20", "*", "h0" ] ],
+    [ "uno:A5", "ssd1306:CLK", "purple", [ "v24", "*", "h0" ] ],
+    [ "uno:13", "led1:A", "green", [ "v0" ] ],
+    [ "led1:C", "r1:1", "green", [ "v0" ] ],
+    [ "uno:GND.1", "r1:2", "black", [ "v0" ] ],
+    [ "uno:2", "btn1:1.r", "green", [ "v0" ] ],
+    [ "uno:GND.1", "btn1:2.l", "black", [ "v0" ] ]
+  ]
+}
