@@ -1,6 +1,8 @@
 # GGreg20_V3 radiation counter simulator for Arduino UNO powered by WOKWI 
 GGreg20_V3 Ionizing Radiation Detector for Arduino UNO WOKWI simulator
 
+![GGreg20_V3 Simulator](https://github.com/iotdevicesdev/ggreg20-v3-arduino-uno-wokwi-simulator/blob/main/GGreg20_V3_ArduinoUNO_WOKWIsimulator_IoT-devicesLogo.png)
+
 IoT-devices GGreg20_V3 with Display SSD1306 Demo sketch
 
 Filename: IoT-devices-GGreg20_V3_DisplaySSD1306-Demo-sketch.ino
