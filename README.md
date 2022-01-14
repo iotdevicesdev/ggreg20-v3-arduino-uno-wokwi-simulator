@@ -5,7 +5,7 @@ IoT-devices GGreg20_V3 with Display SSD1306 Demo sketch
 
 Filename: IoT-devices-GGreg20_V3_DisplaySSD1306-Demo-sketch.ino
 
-WOKWI Project Link: https://wokwi.com/arduino/projects/320685546262233684
+WOKWI Project Link: https://wokwi.com/arduino/projects/320717737217229394
 
 GGreg20_V3 product page: https://iot-devices.com.ua/en/product/ggreg20_v3-ionizing-radiation-detector-with-geiger-tube-sbm-20/
 
