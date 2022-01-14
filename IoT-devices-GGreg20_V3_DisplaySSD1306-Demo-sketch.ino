@@ -139,6 +139,7 @@ void disp() {
 }
 
 void calc() {
+  ma5_val = 0;
   ma5_arr[ma5_pointer] = cpm * 0.0054; // 0.0054 conversion factor for SBM-20 GM tube
 
   byte i = 0;
@@ -149,11 +150,11 @@ void calc() {
 
   byte j = 0;
   while(j < ma5_arr_elements && ma5_arr[j] != 0){
-    ma5_val = ma5_val + ma5_arr[j];
+    ma5_val += ma5_arr[j];
     j++;
   }
 
-  if(ma5_arr_elements != 0){ma5_val = ma5_val / ma5_arr_elements;}
+  if(ma5_arr_elements != 0){ma5_val /= ma5_arr_elements;}
   if (ma5_pointer < 4){ma5_pointer++;} else {ma5_pointer = 0;}
 
 }
