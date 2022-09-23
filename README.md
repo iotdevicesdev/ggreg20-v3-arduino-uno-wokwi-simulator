@@ -1,3 +1,5 @@
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-team.svg)](https://stand-with-ukraine.pp.ua)
+
 # GGreg20_V3 radiation counter simulator for Arduino UNO powered by WOKWI 
 GGreg20_V3 Ionizing Radiation Detector for Arduino UNO WOKWI simulator
 
