@@ -26,6 +26,8 @@
     Hackaday Project: https://hackaday.io/project/183103-ggreg20v3-ionizing-radiation-detector
     
     Licensed under Apache-2.0 License
+    License record: IoT-devices, LLC : EO/zaD7NcdSfHLgB/OlzLx/6De/N5thMJ1PCZSsxhxqd3J4OoHK84QQgNlKVSh5X1lrEp0a0/8fRyTThM649FZNcQPydSrHadjHNH3pMPb6q4sDRHzsmt4vE18M3cfG+Rd7cMNqqlTl2IUu5J7mLiclji8di0FSBIB7UOnf14JxJ71oruGPkEiqK9yLAw4or
+
 
 */
 //
