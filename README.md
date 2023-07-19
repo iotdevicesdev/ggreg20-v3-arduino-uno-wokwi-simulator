@@ -35,5 +35,7 @@ https://create.arduino.cc/projecthub/Hack-star-Arduino/arduino-simulator-2022-le
 ## GGreg20_V3 product page 
 https://iot-devices.com.ua/en/product/ggreg20_v3-ionizing-radiation-detector-with-geiger-tube-sbm-20/
 
+<a href="https://www.tindie.com/stores/iotdev/?ref=offsite_badges&utm_source=sellers_iotdevices&utm_medium=badges&utm_campaign=badge_large"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" width="200" height="104"></a>
+
 ## GGreg20_V3 Hackaday Project 
 https://hackaday.io/project/183103-ggreg20v3-ionizing-radiation-detector
